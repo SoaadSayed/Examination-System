@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Quiz.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id = "container">
+
+        <div id = "quizSection">
+
+            <div id = "question">
+
+                <span id = "ques"> <!--What your name ?--></span>
+                <hr>
+    
+            </div>
+    
+            <span id = "timer">2:00</span>
+            <!-- <div id = "myBar"></div> -->
+    
+            <div id = "answers">
+    
+                
+            </div>
+    
+    
+            
+            <div id = "prevbtn">
+                
+                <button type = "button" id = "prev" onclick = "Prev()">Prev</button>
+                
+            </div>
+
+
+            <div id = "matchbtn">
+    
+                <button type = "button" id = "next" onclick = "Mark()">Marked</button>
+    
+            </div>
+            
+            
+            <div id = "nextbtn">
+    
+                <button type = "button" id = "next" onclick = "Next()">Next</button>
+    
+            </div>
+    
+            <div id = "submitbtn">
+    
+                <button type = "button" id = "next" onclick = "showResult()">Submit</button>
+    
+            </div>
+    
+
+        </div>
+        
+        <div id = "markedSection">
+
+            <h2>Marked Question</h2>
+            <div id = "marked">
+
+            </div>
+
+        </div>
+
+    </div>
+    
+
+    <div id = "result">
+        
+        <h2>Quiz Result</h2> 
+
+        <span id = "yourname">Your Name: </span>
+        <span id = "name"></span>
+        <br> <br>
+        <span id = "score">Your Score: </span>
+        <span id = "scoreResult"></span>
+        <br> <br>
+
+        <!-- <button id = "back"> Back </button> -->
+    </div>
+    
+
+    <script src="cookies.js"></script>
+    <script src="Quiz.js"></script>
+</body>
+</html>

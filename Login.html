@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="Login.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id = "container">
+
+        <div id = "formSection">
+
+            <div id = "signinBtn">
+
+                <a href = "./Login.html"> Sign in </a>
+            </div>
+
+            <div id = "signupBtn">
+
+                <a href = "./Signup.html"> Sign up </a>
+            </div>
+            
+            <div id = "login-content">
+
+                <form id = "form" onsubmit = "Login(event)" action = "Quiz.html">
+            
+            
+                    <div class = "form-control">
+        
+                        <!-- <label for = "email">Email</label> -->
+                        <input type = "text" placeholder = "example@example.com" id = "email"/> 
+                        <small id = "semail">feifkjehejhhej</small>
+                        <br>
+                        
+                    </div>
+            
+            
+                    <div class = "form-control">
+        
+                        <!-- <label for = "password">Password</label> -->
+                        <input type = "password" placeholder = "Password" id = "password"/> 
+                        <small id = "spass">feifkjehejhhej</small>
+                        <br>
+                        
+                    </div>
+            
+            
+                    <input type="submit" value = "Login" id = "submit">
+
+                    
+                </form>
+                
+
+            </div>
+
+        </div>
+
+        <div id = "ImgSection">
+
+            <h3 id = "first"> Are You Ready For </h3>
+            <h3> JS Exam? </h3>
+            <img src = "./images/Exams-bro (6).svg" alt = "..." id = "examImg">
+
+        </div>
+        
+    </div>
+    
+    <script src="cookies.js"></script>
+    <script src="Login.js"></script>
+</body>
+</html>
